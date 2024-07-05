@@ -1,0 +1,73 @@
+/* style.css */
+
+.major-container {
+    background-image: url(img.bluewater.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-top: 2%;
+    
+} 
+
+.navigation-bar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation-list ul {
+    display: flex;
+    margin-left: -20%;
+
+}
+
+.navigation-list ul li {
+    list-style-type: none;
+    width: 100px;
+    color: white;
+   
+}
+
+button {
+    border-style: none;
+    border-radius: 2cap;
+    background-color: white;
+}
+
+.body-container {
+    display: flex;
+}
+
+.content-container {
+    height: 350px;
+    width: 570px;
+    margin-left: 12%;
+    text-align: left; 
+    margin-top: 5%;
+    color: white;
+}
+
+.uppercase-content {
+    width: 350px;
+}
+
+.first-lowercase {
+    width: 520px;
+}
+
+.box-container {
+    width: 200px;
+    height: 30px;
+    border: 3px solid black;
+    text-align: left; 
+    margin-top: 3%;
+    padding-top: 1%;
+}
+
+.second-lowercase {
+    width: 520px;
+    margin-top: 2%;
+}
+
+.picture-container {}
+
+
