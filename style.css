@@ -4,9 +4,8 @@
     background-image: url(img.bluewater.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
-    padding-top: 2%;
-    
+    height: 600px;
+    padding-top: 2%;    
 } 
 
 .navigation-bar {
@@ -16,21 +15,20 @@
 
 .navigation-list ul {
     display: flex;
-    margin-left: -20%;
-
+    margin-left: -25%;
 }
 
 .navigation-list ul li {
     list-style-type: none;
     width: 100px;
     color: white;
-   
 }
 
 button {
     border-style: none;
     border-radius: 2cap;
     background-color: white;
+    height: 25px;
 }
 
 .body-container {
@@ -40,34 +38,55 @@ button {
 .content-container {
     height: 350px;
     width: 570px;
-    margin-left: 12%;
+    margin-left: 13%;
     text-align: left; 
     margin-top: 5%;
     color: white;
 }
 
 .uppercase-content {
-    width: 350px;
+    width: 210px;
 }
 
 .first-lowercase {
-    width: 520px;
+    width: 550px;
+    text-align: center;
+    margin-left: -2%;
 }
 
 .box-container {
     width: 200px;
-    height: 30px;
-    border: 3px solid black;
-    text-align: left; 
-    margin-top: 3%;
-    padding-top: 1%;
+    height: 40px;
+    border: 2px solid red;
+    border-radius: 1cap;
+    margin-top: 5%;
+}
+
+.the-content {
+    margin-top: 4%;
+    background-color: white;
+    color: red;
+    height: 25px;
+    width: 150px;
+    border-radius: 1%;
+    margin-left: 12%;
+    margin-top: 2%;
+    border-style: dashed;
+    text-align: center
 }
 
 .second-lowercase {
-    width: 520px;
-    margin-top: 2%;
+    width: 550px;
+    margin-top: 5%;
+    text-align: center;
+    margin-left: -3%;
 }
 
-.picture-container {}
-
-
+.picture-container {
+    height: 150px;
+    width: 300px;
+    border-radius: 50cm;
+    background-image: url("images/Peacock.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
