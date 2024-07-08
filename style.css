@@ -1,7 +1,7 @@
 /* style.css */
 
 .major-container {
-    background-image: url(img.bluewater.jpg);
+    background-image: url("images/img.bluewater.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
